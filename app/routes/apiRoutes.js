@@ -14,6 +14,6 @@ app.get("/api/friends", function(req,res){
 
 //POST ROUTE
 app.post("/api/friends", function(req,res){
-    
+    allfriends.push(req.body);
 });
 }
